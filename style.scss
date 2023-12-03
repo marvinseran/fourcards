@@ -1,17 +1,22 @@
-@media screen and (max-width: 375px) {
-    #bu {
-        display: none;
+@media screen and (min-width: 375px) {
+    .top{
+        flex-direction: column;
+        height: 10%;
     }
-    #supervisor{
-        display: none;
+    .container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 2%;
     }
-    #kar{
-        display: none;
+    .bk,
+    .calcu,
+    .supervisor{
+        width: 33%;
     }
-    #calcu{
-        display: none;
-    }
-  }
+    
+}
+
 * {
     font-family: Poppins;
 }
@@ -51,7 +56,7 @@ img{
     height: auto;
 }
 .buimg{
-    margin-bottom: 80px;
+    margin-bottom: 20%;
 }
 
 .top{
@@ -59,16 +64,11 @@ img{
     flex-direction: column;
     text-align: center;
 }
-
-.container{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 2%;
+.artdesc{
+    margin-top: 20px;
 }
 
 .supervisor{
-    width: 33%;
     box-shadow: 1px 2px 15px rgb(114, 114, 114);
     border-top: 3px solid hsl(180, 62%, 55%);
     border-radius: 4px;
@@ -88,11 +88,9 @@ img{
 
 }
 .bk{
-    width: 33%;
 
 }
 .calcu{
-    width: 33%;
     box-shadow: 1px 2px 15px rgb(114, 114, 114);
     border-top: 3px solid hsl(212, 86%, 64%);
     border-radius: 4px;
