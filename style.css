@@ -1,0 +1,123 @@
+@media screen and (max-width: 375px) {
+  #bu {
+    display: none;
+  }
+  #supervisor {
+    display: none;
+  }
+  #kar {
+    display: none;
+  }
+  #calcu {
+    display: none;
+  }
+}
+* {
+  font-family: Poppins;
+}
+
+html {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+h1 {
+  font-weight: 220;
+  margin-bottom: -25px;
+  color: rgb(71, 71, 71);
+}
+
+h2 {
+  margin-top: 3%;
+  font-weight: 330;
+  font-size: 11px;
+  color: hsl(0, 0%, 10%);
+}
+
+p, h3 {
+  text-align: left;
+  margin-left: 15px;
+}
+
+p {
+  font-size: 13px;
+  margin-right: 25%;
+  margin-top: -10px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+img {
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 15%;
+  height: auto;
+}
+
+.buimg {
+  margin-bottom: 80px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 2%;
+}
+
+.supervisor {
+  width: 33%;
+  box-shadow: 1px 2px 15px rgb(114, 114, 114);
+  border-top: 3px solid hsl(180, 62%, 55%);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 2%;
+  margin-top: 15%;
+  height: 60%;
+}
+
+.bu {
+  box-shadow: 1px 2px 15px rgb(114, 114, 114);
+  border-top: 3px solid hsl(0, 78%, 62%);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px;
+  margin-bottom: 10%;
+  height: 40%;
+}
+
+.bk {
+  width: 33%;
+}
+
+.calcu {
+  width: 33%;
+  box-shadow: 1px 2px 15px rgb(114, 114, 114);
+  border-top: 3px solid hsl(212, 86%, 64%);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 2%;
+  margin-top: 15%;
+  height: 60%;
+}
+
+.kar {
+  box-shadow: 1px 2px 15px rgb(114, 114, 114);
+  border-top: 3px solid hsl(34, 97%, 64%);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px;
+  height: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
